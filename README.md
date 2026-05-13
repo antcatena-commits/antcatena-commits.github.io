@@ -12,6 +12,7 @@ Projet Data complet utilisant **Python (Google Colab)** et **Power BI** pour ana
 - Analyser les causes principales  
 - Étudier l’évolution temporelle  
 - Construire un dashboard interactif
+- Proposer des préconisations pour faire de la prévention dans les zones prioritaires
 
 ---
 
