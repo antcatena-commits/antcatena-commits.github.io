@@ -6,6 +6,15 @@ Projet Data complet utilisant **Python (Google Colab)** et **Power BI** pour ana
 
 ---
 
+
+## 🎯 Objectifs du projet
+- Identifier les zones les plus touchées  
+- Analyser les causes principales  
+- Étudier l’évolution temporelle  
+- Construire un dashboard interactif
+
+---
+
 ## 📊 1. Analyse & Visualisations (Google Colab)
 
 ### Prétraitement des données
@@ -24,13 +33,7 @@ Projet Data complet utilisant **Python (Google Colab)** et **Power BI** pour ana
 ### KPIs & insights
 ![KPIs](images/powerbi_kpis.png)
 
----
 
-## 🎯 Objectifs du projet
-- Identifier les zones les plus touchées  
-- Analyser les causes principales  
-- Étudier l’évolution temporelle  
-- Construire un dashboard interactif  
 
 ---
 
