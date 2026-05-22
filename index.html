@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Data - GitHub Pages</title>
+
   <style>
     body {
       margin: 0;
@@ -11,22 +12,26 @@
       background: #f7f7f7;
       color: #333;
     }
+
     header {
       background: #0d1117;
       color: white;
       padding: 20px;
       text-align: center;
     }
+
     nav a {
       color: white;
       margin: 0 10px;
       text-decoration: none;
     }
+
     .container {
       max-width: 1000px;
       margin: auto;
       padding: 20px;
     }
+
     .project {
       background: white;
       padding: 20px;
@@ -34,9 +39,11 @@
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+
     .project h3 {
       margin-top: 0;
     }
+
     .btn {
       display: inline-block;
       padding: 10px 15px;
@@ -46,6 +53,15 @@
       border-radius: 5px;
       margin-top: 10px;
     }
+
+    /* ⭐ Ajout pour centrer le bouton */
+    .btn-center {
+      display: block;
+      margin: 15px auto;
+      width: fit-content;
+      text-align: center;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -54,14 +70,8 @@
       margin-top: 40px;
     }
   </style>
-  .btn-center {
-  display: block;
-  margin: 15px auto;
-  width: fit-content;
-  text-align: center;
-}
-
 </head>
+
 <body>
 
 <header>
@@ -83,17 +93,19 @@
     <div class="project">
       <h3>Analyse des feux de forêt aux Etats-Unis</h3>
       <p>Dans le cadre de cette étude j'ai utilisé Python (Pandas, Matplotlib, Seaborn, Numpy...) ainsi que Power BI (Dax et visualisations).</p>
-  <a class="btn btn-center" href="https://github.com/antcatena-commits/projet-feux-de-foret" target="_blank">
-  PROJET
-</a>
 
-
+      <!-- ⭐ Bouton centré -->
+      <a class="btn btn-center" href="https://github.com/antcatena-commits/projet-feux-de-foret" target="_blank">
+        PROJET
+      </a>
     </div>
 
     <div class="project">
       <h3>Dashboard Power BI</h3>
       <p>Création d'un dashboard interactif pour le suivi des KPI.</p>
-      <a class="btn" href="https://github.com/ton-username/projet-dashboard" target="_blank">Voir sur GitHub</a>
+      <a class="btn btn-center" href="https://github.com/ton-username/projet-dashboard" target="_blank">
+        Voir sur GitHub
+      </a>
     </div>
 
   </section>
@@ -101,7 +113,7 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Email : ant.catena@gmail.com</p>
-    <p>GitHub : https://github.com/ton-username</p>
+    <p>GitHub : https://github.com/antcatena-commits</p>
     <p>LinkedIn : https://linkedin.com/in/ton-profil</p>
   </section>
 
